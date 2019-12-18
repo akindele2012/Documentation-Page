@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Machine Learning Note</title>
+<body>
+<nav id="navbar">
+  <header>ML Documentation</header>
+  <ul>
+    <li>
+      <a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Types_machine_learning">Types of Machine Learning</a>
+    </li>
+    <li> <a class="nav-link" href="#ML_algorithms"> Machine Learning Algorithms</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Deep_learning">Deep Learning</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#DL_algorithms">Deep Learning Alogrithms</a>
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        Machine learning (ML) <b>is a branch of Artificial Intelligence
+        that pushes forward the idea that, by giving access to the
+        right data, machines can learn by themselves how to solve a
+        specific problem</b>.
+      </p>
+      <p> By leveraging complex mathematical andstatistical tools,
+      ML renders machines capable of performing
+      independently intellectual tasks that have been traditionally
+      solved by human beings. This idea of automating complex
+      tasks has generated high interest in the various field such as networking field, on
+      the expectation that several activities involved in the design
+      and operation of communication networks can be offloaded to
+      machines. Some applications of ML in different networking
+      areas have already matched these expectations in areas such
+      as intrusion detection, traffic classification, cognitive
+      radios.
+      In nutshell, machine learning can be defined as the development of itself
+      learning algorithms to gain knowledge from the data in order to make prediction.
+    </p>
+    </article>
+  </section>
+  <section class="main-section" id="What_you_should_already_know">
+    <header>What you should already know</header>
+    <article>
+      <p>This guide assumes you have the following basic background:</p>
+
+      <ul>
+        <li>
+          A general understanding of the programming language such
+          python, R and so on.
+        </li>
+        <li>Good knowledge of mathematical behind Machine Learning</li
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Types_machine_learning">
+    <header>Types of Machine Learning</header>
+    <article>
+      <p> Machine learning can be divided into three parts.</p>
+      <ul>
+        <li>
+          Supervised Machine Learning
+        </li>
+        <p>Input data is called training data and has a known label or result such as
+        spam/not-spam or a stock price at a time.A model is prepared through a training process
+        in which it is required to make predictions and is corrected when those predictions are wrong.
+        The training process continues until the model achieves a desired level
+        of accuracy on the training data. Example problems are classification and regression</p>
+        <li>
+        Unsupervised machine learning
+        </li>
+        <p>
+          Input data is not labeled and does not have a known result.A model is prepared by deducing structures present in
+          the input data. This may be to extract general rules. It may be through a mathematical process to systematically
+          reduce redundancy, or it may be to organize data by similarity.Example problems are clustering, dimensionality reduction
+          and association rule learning</p>
+         <li>
+          Semi-Supervised Learning
+         </li>
+         <p> Input data is a mixture of labeled and unlabelled examples.There is a desired prediction problem but
+           the model must learn the structures to organize the data as well as make predictions.
+           Example problems are classification and regression.</p>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="ML_algorithms">
+    <header>Machine Learning Algorithms</header>
+    <article>
+      <ul>
+          <li> Supervised Machine Learning</li>
+          <ul>
+            <li>Ordinary Least Squares Regression (OLSR)</li>
+            <li>Linear Regression</li>
+            <li>Logistic Regression</li>
+            <li>Stepwise Regression</li>
+            <li>Multivariate Adaptive Regression Splines (MARS)</li>
+            <li>Locally Estimated Scatterplot Smoothing (LOESS)</li>
+            <li>Naive Bayes</li>
+            <li>Gaussian Naive Bayes</li>
+            <li>Multinomial Naive Bayes</li>
+            <li>Averaged One-Dependence Estimators (AODE)</li>
+            <li>Bayesian Belief Network (BBN)</li>
+            <li>Bayesian Network (BN)</li>
+            <li>Support Vector Machine(SVM)</li>
+            <li>Perceptron</li>
+            <li>Multilayer Perceptrons (MLP)</li>
+            <li>Back-Propagation</li>
+            <li>Stochastic Gradient Descent</li>
+            <li>Hopfield Network</li>
+            <li>Radial Basis Function Network (RBFN)</li>
+            <li> Random Forest</li>
+            <li> CatBoost</li>
+            <li> LGBoost</li>
+          </ul>
+          <li> Unsupervised Machine Learning</li>
+          <ul>
+            <li>k-Means</li>
+            <li>k-Medians</li>
+            <li>Expectation Maximisation (EM)</li>
+            <li>Hierarchical Clustering</li>
+            <li> Self Organizing Map (SOM)</li>
+            <li>Apriori algorithm</li>
+            <li>Eclat algorithm</li>
+          </ul>
+          <li> Semi Supervised Learning</li>
+          <ul>
+            <li>k-Nearest Neighbor (kNN)</li>
+            <li>Learning Vector Quantization (LVQ)</li>
+            <li>Locally Weighted Learning (LWL)</li>
+    </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Deep_learning">
+    <header>Deep Learning</header>
+    <article>
+    <p>
+      Deep Learning methods are a modern update to Artificial Neural Networks that exploit abundant cheap computation.
+      They are concerned with building much larger and more complex neural networks and, as commented on above,
+      many methods are concerned with very large datasets of labelled analog data, such as image, text. audio, and video
+    </article>
+  </section>
+  <section class="main-section" id="DL_algorithms">
+    <header>Deep Learning Alogrithms</header>
+    <article>
+      <p> Deep Learning algorithms are </p>
+      <ul>
+        <li>Convolutional Neural Network (CNN)</li>
+        <li>Recurrent Neural Networks (RNNs)</li>
+        <li>Long Short-Term Memory Networks (LSTMs)</li>
+        <li>Stacked Auto-Encoders</li>
+       <li>Deep Boltzmann Machine (DBM)</li>
+       <li>Deep Belief Networks (DBN)</li>
+     </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a href="https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/"
+            target="_blank">MLA</a>
+        </li>
+      </ul>
+    </article>
+  </section>
+  <footer>
+    <span>Developed by Kamar &copy 2019 All rights reserved </span>
+  </footer>
+</main>
+</head>
+</body>
+
+</html>
